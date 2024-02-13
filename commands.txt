@@ -1,0 +1,12 @@
+1. Create SSH key by running: ssh-keygen -o -t rsa -C "hamiduzayr@gmail.com"
+2. Open public ssh file and copy the entire ssh key
+3. On Github > settings > SSH and GPG Keys > Add SSH Key > paste key.
+4. Now, on the repository you want to clone, click on "Code" and copy ssh url.
+5. On terminal: git clone "ssh url"
+6. Open the folder on VS Code
+7. If you edit something on VS Code, then on terminal: 
+    i. git add "filename.txt"
+    ii. git commit -m "Commit message"
+    iii. git push origin main
+    iv. git status
+    v. git log --oneline
