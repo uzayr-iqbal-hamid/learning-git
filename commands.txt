@@ -10,3 +10,10 @@
     iii. git push origin main
     iv. git status
     v. git log --oneline
+
+8. To access older versions of code:
+    on vS Code terminal: git log --oneline
+    select a hash of any commit
+                then: git checkout "hash"
+9. To come back to main branch: git checkout main
+10. To create a new branch: git checkout -b "branch name"
